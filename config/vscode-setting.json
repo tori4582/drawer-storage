@@ -1,0 +1,172 @@
+{
+
+    "workbench.colorCustomizations": {
+
+        "focusBorder": "#29f7ff",
+        "widget.shadow": "#29f7ff44",
+        "selection.background": "#147c80",
+        "scrollbarSlider.background": "#147c80aa",
+        "scrollbarSlider.hoverBackground": "#29f7ffaa",
+        "scrollbarSlider.activeBackground": "#29f7ffaa",
+        "badge.background": "#147c80",
+        "badge.foreground": "#fff",
+        "progressBar.background": "#29f7ff",
+
+        "textLink.foreground": "#29f7ff",
+        "textLink.activeForeground": "#1fbabf",
+        "toolbar.hoverBackground": "#147c80",
+        "toolbar.activeBackground": "#147c80",
+
+        "button.background": "#1fbabf",
+        "button.border": "#29f7ff",
+        "button.foreground": "#fff",
+        "button.hoverBackground": "#147c80",
+        "checkbox.foreground": "#29f7ff",
+        "checkbox.border": "#147c88",
+
+        "dropdown.background": "#353b45dd",
+        "dropdown.border": "#29f7ff",
+        "dropdown.listBackground": "#147c80",
+        "dropdown.foreground": "#fff",
+
+        "input.border": "#147c88",
+        "input.foreground": "#fff",
+
+        "tab.activeBorder": "#29f7ff",
+        "tab.activeBackground": "#0a3e40",
+        "tab.activeForeground": "#fff",
+        "tab.inactiveForeground": "#888",
+
+        "editorLineNumber.activeForeground": "#29f7ff",
+        "editorCursor.foreground": "#29f7ff",
+        "editor.selectionBackground": "#147c8044",
+        "editor.selectionHighlightBorder": "#1fbabf",
+        "editor.selectionHighlightBackground": "#0000",
+        "editorLink.activeForeground": "#29f7ff",
+        "editorIndentGuide.activeBackground": "#1fbabf",
+        "editorBracketMatch.background": "#147c80",
+        "editorBracketMatch.border": "#0000",
+        "editorWidget.border": "#29f7ff",
+        "editorSuggestWidget.border": "#29f7ff",
+        "editorSuggestWidget.focusHighlightForeground": "#29f7ff",
+        "editorSuggestWidget.highlightForeground": "#1fbabf",
+        "editorSuggestWidget.selectedBackground": "#0a3e40",
+        "editorHoverWidget.border": "#147c80",
+        "editorHoverWidget.background": "#444a",
+        "editorHoverWidget.highlightForeground": "#29f7ff",
+
+        "sideBarTitle.foreground": "#29f7ff",
+        "sideBarSectionHeader.foreground": "#29f7ff",
+        "activityBar.activeBorder": "#29f7ff",
+        "activityBar.activeBackground": "#29f7ff44",
+        "activityBar.foreground": "#fff",
+        "activityBar.dropBorder": "#29f7ff",
+        "activityBarBadge.background": "#147c80",
+        "activityBarBadge.foreground": "#fff",
+
+        "panelTitle.activeBorder": "#29f7ff",
+        "panelTitle.activeForeground": "#29f7ff",
+        "panelTitle.inactiveForeground": "#888",
+
+        "statusBar.foreground": "#fff",
+        "statusBarItem.hoverBackground": "#1fbabf",
+        "statusBarItem.activeBackground": "#1fbabf",
+        "statusBarItem.remoteBackground": "#29f7ff",
+        "statusBarItem.remoteForeground": "#000",
+
+        "breadcrumb.activeSelectionForeground": "#29f7ff",
+        "breadcrumb.focusForeground": "#29f7ff",
+        "titleBar.activeForeground": "#fff",
+
+        "menubar.selectionBackground": "#29f7ff",
+        "menubar.selectionForeground": "#000",
+        "menu.selectionBackground": "#29f7ff",
+        "menu.selectionForeground": "#000",
+        "menu.border": "#29f7ff",
+        "menu.separatorBackground": "#1fbabf",
+
+        "notificationCenter.border": "#29f7ff",
+        "notificationCenterHeader.background": "#147c80",
+        "notificationCenterHeader.foreground": "#fff",
+        "notificationToast.border": "#29f7ff",
+        "notificationsErrorIcon.foreground": "#ff4936",
+        "notificationsInfoIcon.foreground": "#29f7ff",
+        "notifications.border": "#29f7ff",
+
+        "keybindingLabel.foreground": "#29f7ff",
+        "settings.headerForeground": "#29f7ff",
+
+    },
+
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "tabnine.experimentalAutoImports": true,
+    "editor.fontFamily": "'Cascadia Code PL', 'CaskaydiaCove NF', Consolas, 'Courier New'",
+    "editor.wordWrap": "on",
+    "editor.fontLigatures": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "guides.enabled": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "redhat.telemetry.enabled": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "python.languageServer": "Pylance",
+    "security.workspace.trust.untrustedFiles": "open",
+    "[xml]": {
+        "editor.defaultFormatter": "fabianlauer.vs-code-xml-format"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "microprofile.alwaysShowOverview": false,
+    "quarkus.tools.alwaysShowWelcomePage": false,
+    "editor.tabCompletion": "on",
+    "editor.suggest.preview": true,
+    "terminal.external.windowsExec": "powershell.exe",
+    "security.workspace.trust.emptyWindow": false,
+    "security.workspace.trust.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "fluent-icons",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.rulers": [
+        80,
+    ],
+    "editor.bracketPairColorization.enabled": true,
+    "settingsSync.ignoredExtensions": [
+
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"c:\\Users\\hungt\\.vscode\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
+    "window.titleBarStyle": "custom",
+    "editor.trimAutoWhitespace": false,
+    "files.trimTrailingWhitespace": true,
+    "editor.codeActionsOnSave": [],
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.colorTheme": "Cold Horizon",
+    "explorer.confirmDelete": false,
+    "editor.fontSize": 15,
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "terminal.explorerKind": "external",
+    "code-runner.clearPreviousOutput": true,
+    "workbench.startupEditor": "none",
+    "editor.minimap.enabled": false,
+    "jupyter.jupyterServerType": "local",
+    "notebook.cellFocusIndicator": "border",
+    "python.defaultInterpreterPath": "C:\\Program Files\\Python39\\python.exe",
+
+    "codesnap.backgroundColor": "#ffffff",
+    "codesnap.boxShadow": "0px 10px 20px 5px lightgray",
+    "codesnap.transparentBackground": true,
+    "codesnap.realLineNumbers": true,
+    "editor.insertSpaces": false,
+}
