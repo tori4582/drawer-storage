@@ -179,4 +179,5 @@
     "codesnap.transparentBackground": true,
     "codesnap.realLineNumbers": true,
     "editor.insertSpaces": false,
+    "editor.cursorBlinking": "expand",
 }
