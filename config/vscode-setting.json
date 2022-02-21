@@ -25,8 +25,9 @@
         "checkbox.border": "#147c88",
 
         "dropdown.background": "#353b45dd",
+        "dropdown.listBackground": "#00000066",
         "dropdown.border": "#29f7ff",
-        "dropdown.listBackground": "#147c80",
+        "dropdown.hoverBackground": "#147c80",
         "dropdown.foreground": "#fff",
 
         "input.border": "#147c88",
@@ -36,6 +37,8 @@
         "tab.activeBackground": "#0a3e40",
         "tab.activeForeground": "#fff",
         "tab.inactiveForeground": "#888",
+        "tab.activeBorderTop": "#000000",
+        "tab.hoverBackground": "#147c80",
 
         "editorLineNumber.activeForeground": "#29f7ff",
         "editorCursor.foreground": "#29f7ff",
@@ -54,6 +57,7 @@
         "editorHoverWidget.border": "#147c80",
         "editorHoverWidget.background": "#444a",
         "editorHoverWidget.highlightForeground": "#29f7ff",
+        "editor.foldBackground": "#29f7ff44",
 
         "sideBarTitle.foreground": "#29f7ff",
         "sideBarSectionHeader.foreground": "#29f7ff",
@@ -95,6 +99,12 @@
 
         "keybindingLabel.foreground": "#29f7ff",
         "settings.headerForeground": "#29f7ff",
+
+        "list.activeSelectionForeground": "#29f7ff",
+        "list.focusOutline": "#1fbabf",
+        "list.errorForeground": "#ff4936",
+        "list.activeSelectionIconForeground": "#29f7ff",
+        "tree.indentGuidesStroke": "#1fbabf"
 
     },
 
@@ -151,7 +161,7 @@
     "files.trimTrailingWhitespace": true,
     "editor.codeActionsOnSave": [],
     "liveServer.settings.donotVerifyTags": true,
-    "workbench.colorTheme": "Cold Horizon",
+    "workbench.colorTheme": "GitHub Dark Default",
     "explorer.confirmDelete": false,
     "editor.fontSize": 15,
     "editor.smoothScrolling": true,
@@ -162,7 +172,7 @@
     "editor.minimap.enabled": false,
     "jupyter.jupyterServerType": "local",
     "notebook.cellFocusIndicator": "border",
-    "python.defaultInterpreterPath": "C:\\Program Files\\Python39\\python.exe",
+    "python.defaultInterpreterPath": "C:\\Program Files\\Python310\\python.exe",
 
     "codesnap.backgroundColor": "#ffffff",
     "codesnap.boxShadow": "0px 10px 20px 5px lightgray",
