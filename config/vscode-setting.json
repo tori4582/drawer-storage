@@ -1,8 +1,11 @@
+
 {
 
     "workbench.colorCustomizations": {
 
         "focusBorder": "#29f7ff",
+        "foreground": "#fff",
+        "icon.foreground": "#29f7ff",
         "widget.shadow": "#29f7ff44",
         "selection.background": "#147c80",
         "scrollbarSlider.background": "#147c80aa",
@@ -11,6 +14,14 @@
         "badge.background": "#147c80",
         "badge.foreground": "#fff",
         "progressBar.background": "#29f7ff",
+        "window.activeBorder": "#29f7ff",
+        "window.inactiveBorder": "#000",
+
+        "titleBar.activeBackground": "#1fbabf",
+        "titleBar.activeForeground": "#000",
+        "titleBar.inactiveBackground": "#0a0a0a",
+        "titleBar.inactiveForeground": "#fff",
+        "titleBar.border": "#29f7ff",
 
         "textLink.foreground": "#29f7ff",
         "textLink.activeForeground": "#1fbabf",
@@ -37,10 +48,13 @@
         "tab.activeBackground": "#0a3e40",
         "tab.activeForeground": "#fff",
         "tab.inactiveForeground": "#888",
-        "tab.activeBorderTop": "#000000",
+        "tab.inactiveBackground": "#0a0a0a",
+        "tab.activeBorderTop": "#0000",
         "tab.hoverBackground": "#147c80",
 
+        "editor.background": "#000000",
         "editorLineNumber.activeForeground": "#29f7ff",
+        "editorLineNumber.foreground": "#466",
         "editorCursor.foreground": "#29f7ff",
         "editor.selectionBackground": "#147c8044",
         "editor.selectionHighlightBorder": "#1fbabf",
@@ -59,10 +73,23 @@
         "editorHoverWidget.highlightForeground": "#29f7ff",
         "editor.foldBackground": "#29f7ff44",
 
+        "editorGroup.border": "#29f7ff",
+        "editorGroupHeader.tabsBackground": "#0a0a0a",
+
+        "sideBar.background": "#0a0a0a",
+        "sideBar.foreground": "#888",
+        "sideBar.border": "#147c80",
         "sideBarTitle.foreground": "#29f7ff",
+        "sideBarTitle.background": "#29f7ff",
+        "sideBarSectionHeader.background": "#000000",
+        "sideBarSectionHeader.border": "#147c80",
         "sideBarSectionHeader.foreground": "#29f7ff",
+
+        "activityBar.background": "#0a0a0a",
+        "activityBar.border": "#147c80",
         "activityBar.activeBorder": "#29f7ff",
         "activityBar.activeBackground": "#29f7ff44",
+        "activityBar.inactiveForeground": "#888",
         "activityBar.foreground": "#fff",
         "activityBar.dropBorder": "#29f7ff",
         "activityBarBadge.background": "#147c80",
@@ -72,15 +99,19 @@
         "panelTitle.activeForeground": "#29f7ff",
         "panelTitle.inactiveForeground": "#888",
 
+        "statusBar.background": "#000000",
+        "statusBar.noFolderBackground": "#000000",
         "statusBar.foreground": "#fff",
+        "statusBar.border": "#29f7ff",
         "statusBarItem.hoverBackground": "#1fbabf",
         "statusBarItem.activeBackground": "#1fbabf",
         "statusBarItem.remoteBackground": "#29f7ff",
         "statusBarItem.remoteForeground": "#000",
 
+        "breadcrumb.background": "#000000",
+        "breadcrumb.foreground": "#888",
         "breadcrumb.activeSelectionForeground": "#29f7ff",
         "breadcrumb.focusForeground": "#29f7ff",
-        "titleBar.activeForeground": "#fff",
 
         "menubar.selectionBackground": "#29f7ff",
         "menubar.selectionForeground": "#000",
@@ -101,6 +132,8 @@
         "settings.headerForeground": "#29f7ff",
 
         "list.activeSelectionForeground": "#29f7ff",
+        "list.inactiveSelectionBackground": "#147c80",
+        "list.inactiveSelectionForeground": "#fff",
         "list.focusOutline": "#1fbabf",
         "list.errorForeground": "#ff4936",
         "list.activeSelectionIconForeground": "#29f7ff",
@@ -111,7 +144,7 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "tabnine.experimentalAutoImports": true,
-    "editor.fontFamily": "'Cascadia Code PL', 'CaskaydiaCove NF', Consolas, 'Courier New'",
+    "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code PL', 'CaskaydiaCove NF', Consolas, 'Courier New'",
     "editor.wordWrap": "on",
     "editor.fontLigatures": true,
     "workbench.editorAssociations": {
@@ -161,7 +194,7 @@
     "files.trimTrailingWhitespace": true,
     "editor.codeActionsOnSave": [],
     "liveServer.settings.donotVerifyTags": true,
-    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.colorTheme": "bc12b380-1f2a-4a9d-89d8-388a07f1e15f",
     "explorer.confirmDelete": false,
     "editor.fontSize": 15,
     "editor.smoothScrolling": true,
